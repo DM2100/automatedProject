@@ -1,0 +1,244 @@
+.styled-bg-nav {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.logo {
+  transition: transform 0.3s ease-in-out;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.nav-link:hover {
+  color: #ff5634;
+}
+
+.styled-button-app {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+
+.styled-button-app:hover {
+  background-color: #ff5634;
+  color: #fff;
+  border: none;
+}
+
+.register-btn {
+  background-color: #ff5634;
+  border: none !important;
+  padding: 13px 25px;
+  width: 150px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.register-btn:hover {
+  background-color: rgba(204, 44, 12, 0.9098039216);
+}
+
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+.dropdown-menu {
+  width: 600px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 2000;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+.dropdown-menu p {
+  color: rgb(134, 134, 134);
+  cursor: pointer;
+}
+.dropdown-menu p:hover {
+  color: #ff5634;
+}
+
+.banner-section {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.styled-number {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20rem;
+  height: 100%;
+  color: rgba(255, 86, 52, 0.7);
+  opacity: 0.2;
+}
+
+.image-section {
+  width: 100%;
+  height: 800px;
+}
+
+.section-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.section-text h1 {
+  color: #121212;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.section-text p {
+  width: 450px;
+  font-size: 1.3rem;
+  color: rgb(134, 134, 134);
+}
+
+.styled-home-btn {
+  margin-top: 10px;
+  background-color: #ff5634;
+  border: none;
+  padding: 20px 45px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #fff;
+}
+.styled-home-btn:hover {
+  background-color: rgba(204, 44, 12, 0.9098039216);
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.main-section img {
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+.main-section img:hover {
+  transform: scale(1.1);
+}
+
+.main-section p {
+  color: rgb(134, 134, 134);
+  margin-top: 15px;
+  width: 530px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.styled-fa-icon {
+  color: #fff;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.download-btns {
+  align-items: center;
+  padding: 15px 22px;
+  text-align: center;
+  background-color: #ff5634;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.download-btns:hover {
+  background-color: rgba(204, 44, 12, 0.9098039216);
+}
+
+.download-btns i {
+  margin-right: 10px;
+}
+
+.footer-section h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+.footer-section p {
+  color: rgb(134, 134, 134);
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16.5px;
+}
+.footer-section p:hover {
+  color: #ff5634;
+}
+
+.last-p-styled {
+  font-size: 1.3rem !important;
+  font-weight: 400;
+  color: #ff5634 !important;
+  position: relative;
+}
+.last-p-styled::after {
+  content: "";
+  display: block;
+  width: 75%;
+  height: 3px;
+  background-color: #ff5634;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.last-p-styled:hover {
+  color: #121212 !important;
+}
+.last-p-styled:hover::after {
+  background-color: black;
+}
+
+.last-col img {
+  border-radius: 20px;
+}
+
+.styled-p {
+  color: #121212 !important;
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+
+.styled-footer {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.styled-footer h3 {
+  color: rgb(134, 134, 134);
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 30px !important;
+}
+
+.styled-footer span {
+  color: #ff5634 !important;
+}
+.styled-footer span:hover {
+  color: #121212 !important;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

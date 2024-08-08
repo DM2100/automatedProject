@@ -1,0 +1,10 @@
+// _mixins.scss
+@mixin hover-effect($bg-color, $text-color, $shadow) {
+  &:hover {
+    background-color: $bg-color;
+    color: $text-color;
+    box-shadow: $shadow;
+    transition: all 0.3s ease;
+  }
+}
+  

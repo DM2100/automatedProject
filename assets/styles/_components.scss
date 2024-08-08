@@ -1,0 +1,264 @@
+// _components.scss
+.styled-bg-nav {
+  background-color: #ffffff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.logo {
+  transition: transform 0.3s ease-in-out; 
+
+  &:hover {
+    transform: scale(1.1); 
+  }
+}
+
+.nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  color: $text-color;
+ 
+}
+
+.nav-link:hover {
+  color: $primary-color;
+}
+
+.styled-button-app {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+}
+
+.styled-button-app:hover {
+  background-color: #ff5634;
+  color: $color-text;
+  border: none;
+}
+
+.register-btn {
+  background-color: $primary-color;
+  border: none !important;
+  padding: 13px 25px;
+  width: 150px;
+  color: $color-text;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.register-btn:hover {
+  background-color: $hover-color;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+.dropdown-menu {
+  width: 600px;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 2000;
+  top: 100%;
+  left: 0;
+  display: none;
+
+}
+
+.dropdown-menu p {
+  color: $paragraph-text-color;
+  cursor: pointer;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+//  BANNER-SECTION
+.banner-section {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.styled-number {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20rem;
+  height: 100%;
+  color: rgba($primary-color, 0.7); 
+  opacity: 0.2; 
+}
+
+.image-section {
+  width: 100%;
+  height: 800px;
+}
+
+.section-text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.section-text h1 {
+  color: $section-text-color;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+.section-text p {
+  width: 450px;
+  font-size: 1.3rem;
+  color: $paragraph-text-color;
+}
+
+.styled-home-btn {
+  margin-top: 10px;
+  background-color: $primary-color;
+  border: none;
+  padding: 20px 45px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: $color-text;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+
+
+// MAIN SECTIOn
+.main-section {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.main-section img {
+  width: 250px;
+  transition: transform 0.3s ease-in-out; 
+
+  &:hover {
+    transform: scale(1.1); 
+  }
+}
+
+.main-section p {
+  color: $paragraph-text-color;
+  margin-top: 15px;
+  width: 530px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.styled-fa-icon {
+  color: $color-text;
+  font-size: 30px;
+  margin-right: 10px; 
+}
+
+.download-btns {
+  align-items: center;
+  padding: 15px 22px;
+  text-align: center;
+  background-color: $primary-color;
+  color: $color-text;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.3rem;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+.download-btns i {
+  margin-right: 10px; 
+}
+
+
+// FOOTERSECTION
+.footer-section h1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+}
+
+.footer-section p {
+  color: $paragraph-text-color;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16.5px;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.last-p-styled {
+  font-size: 1.3rem !important;
+  font-weight: 400;
+  color: $primary-color !important;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 75%;
+    height: 3px; 
+    background-color: $primary-color;
+    position: absolute;
+    bottom: -10px; 
+    left: 0;
+    transition: all 0.3s ease;
+  }
+
+  &:hover {
+    color: $section-text-color !important;
+
+    &::after {
+      background-color: $border-color;
+    }
+  }
+}
+
+.last-col img {
+  border-radius: 20px;
+}
+
+.styled-p {
+  color: $section-text-color !important;
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+
+
+.styled-footer {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.styled-footer h3 {
+  color: $paragraph-text-color;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 30px !important;
+}
+
+.styled-footer span {
+  color: $primary-color !important;
+
+  &:hover {
+    color: $section-text-color !important;
+    cursor: pointer;
+  }
+}
